@@ -1,0 +1,225 @@
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  21   0   0]
+ [  2   8 384   0   8]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.93      0.96      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.88       434
+   macro avg       0.19      0.19      0.19       434
+weighted avg       0.86      0.88      0.87       434
+
+Accuracy
+ 0.8847926267281107
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  21   0   0]
+ [  1   8 385   0   8]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.93      0.96      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.89       434
+   macro avg       0.19      0.19      0.19       434
+weighted avg       0.86      0.89      0.87       434
+
+Accuracy
+ 0.8870967741935484
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  20   0   1]
+ [  1   7 386   0   8]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.93      0.96      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.89       434
+   macro avg       0.19      0.19      0.19       434
+weighted avg       0.86      0.89      0.87       434
+
+Accuracy
+ 0.8894009216589862
+Confusion matrix
+ [[  0   0   2   0]
+ [  0   0  21   0]
+ [  2   9 391   0]
+ [  0   0   9   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.92      0.97      0.95       402
+           3       0.00      0.00      0.00         9
+
+    accuracy                           0.90       434
+   macro avg       0.23      0.24      0.24       434
+weighted avg       0.86      0.90      0.88       434
+
+Accuracy
+ 0.9009216589861752
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  21   0   0]
+ [  4   9 381   0   8]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.92      0.95      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.88       434
+   macro avg       0.18      0.19      0.19       434
+weighted avg       0.86      0.88      0.87       434
+
+Accuracy
+ 0.8778801843317973
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  20   0   1]
+ [  2   7 384   0   9]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.93      0.96      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.88       434
+   macro avg       0.19      0.19      0.19       434
+weighted avg       0.86      0.88      0.87       434
+
+Accuracy
+ 0.8847926267281107
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  21   0   0]
+ [  2   8 381   0  11]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.92      0.95      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.88       434
+   macro avg       0.18      0.19      0.19       434
+weighted avg       0.86      0.88      0.87       434
+
+Accuracy
+ 0.8778801843317973
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   1  19   0   1]
+ [  7   3 384   0   8]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.25      0.05      0.08        21
+           2       0.93      0.96      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.89       434
+   macro avg       0.24      0.20      0.20       434
+weighted avg       0.87      0.89      0.88       434
+
+Accuracy
+ 0.8870967741935484
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  20   0   1]
+ [  2   8 384   0   8]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.93      0.96      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.88       434
+   macro avg       0.19      0.19      0.19       434
+weighted avg       0.86      0.88      0.87       434
+
+Accuracy
+ 0.8847926267281107
+Confusion matrix
+ [[  0   0   2   0]
+ [  0   1  20   0]
+ [  7   1 394   0]
+ [  0   0   9   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.50      0.05      0.09        21
+           2       0.93      0.98      0.95       402
+           3       0.00      0.00      0.00         9
+
+    accuracy                           0.91       434
+   macro avg       0.36      0.26      0.26       434
+weighted avg       0.88      0.91      0.89       434
+
+Accuracy
+ 0.9101382488479263
+Confusion matrix
+ [[  0   0   2   0]
+ [  0   0  21   0]
+ [  6   3 393   0]
+ [  0   0   9   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.92      0.98      0.95       402
+           3       0.00      0.00      0.00         9
+
+    accuracy                           0.91       434
+   macro avg       0.23      0.24      0.24       434
+weighted avg       0.86      0.91      0.88       434
+
+Accuracy
+ 0.9055299539170507
