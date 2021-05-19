@@ -17,6 +17,7 @@ trainY = trainY.drop(['Date'], axis = 1)
 trainY.dropna(inplace=True)
 
 testY = pd.read_csv('TestConditions.csv')
+data_dates = pd.to_datetime(testY['Date'])
 testY = testY.drop(['Date'], axis = 1)
 testY.dropna(inplace=True)
 
@@ -72,3 +73,9 @@ print("Accuracy\n",result2, file=f)
 f.close()
 Yact = encoderTrain.inverse_transform(testY)
 Ypred = encoderTrain.inverse_transform(Ypred)
+PdYact = pd.DataFrame(Yact)
+PdYpred = pd.DataFrame(Ypred)
+PdCon = pd.concat([PdYact, PdYpred], axis=1, join='inner')
+Pd = pd.concat([data_dates,PdCon], axis =1)
+Pd.columns = ['Date', 'Actual Conditions','Predict Conditions']
+Pd.to_csv('Conditions Comparison.csv', index = False)

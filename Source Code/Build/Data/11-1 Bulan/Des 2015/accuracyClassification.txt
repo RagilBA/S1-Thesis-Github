@@ -223,3 +223,24 @@ weighted avg       0.86      0.91      0.88       434
 
 Accuracy
  0.9055299539170507
+Confusion matrix
+ [[  0   0   2   0   0]
+ [  0   0  21   0   0]
+ [  2   8 384   0   8]
+ [  0   0   8   0   1]
+ [  0   0   0   0   0]]
+Classification Report
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00        21
+           2       0.93      0.96      0.94       402
+           3       0.00      0.00      0.00         9
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.88       434
+   macro avg       0.19      0.19      0.19       434
+weighted avg       0.86      0.88      0.87       434
+
+Accuracy
+ 0.8847926267281107

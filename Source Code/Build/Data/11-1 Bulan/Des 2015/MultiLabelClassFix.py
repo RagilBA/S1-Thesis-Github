@@ -36,21 +36,21 @@ testXScale = MinMaxScaler.fit_transform(testX)
 X_train = pd.DataFrame(trainXScale, columns = [
                                                 'Temperature',
                                                 'HeatIndex',
-                                                # 'Precipitation',
+                                                'Precipitation',
                                                 'WindSpeed',
-                                                # 'WindDirection',
+                                                'WindDirection',
                                                 'Visibility',
-                                                # 'CloudCover',
+                                                'CloudCover',
                                                 'RelativeHumidity'
                                              ])
 X_test = pd.DataFrame(testXScale, columns = [
                                                 'Temperature',
                                                 'HeatIndex',
-                                                # 'Precipitation',
+                                                'Precipitation',
                                                 'WindSpeed',
-                                                # 'WindDirection',
+                                                'WindDirection',
                                                 'Visibility',
-                                                # 'CloudCover',
+                                                'CloudCover',
                                                 'RelativeHumidity'
                                              ])
 Y_train = trainY

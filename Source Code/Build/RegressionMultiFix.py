@@ -8,6 +8,7 @@ from matplotlib import pyplot as plt
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
 
+##Inserting data as needed##
 nskip = 12305+4336+4842
 ndata = 4932
 ntrain = 4497
@@ -128,13 +129,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Temperature.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Temperature",mse, file=f)
 f.close()
 
@@ -308,13 +310,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Heat Index.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Heat Index",mse, file=f)
 f.close()
 
@@ -488,13 +491,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Precipitation.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Precipitation",mse, file=f)
 f.close()
 
@@ -668,13 +672,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Wind Speed.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Wind Speed",mse, file=f)
 f.close()
 
@@ -848,13 +853,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Wind Direction.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Wind Direction",mse, file=f)
 f.close()
 
@@ -1028,13 +1034,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Visibility.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Visibility",mse, file=f)
 f.close()
 
@@ -1208,13 +1215,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Cloud Cover.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Cloud Cover",mse, file=f)
 f.close()
 
@@ -1388,13 +1396,14 @@ inv_y1 = inv_y[:,Predict_Var] #Just taking predicted variable
 
 ## calculate MSE ##
 mse = mean_squared_error(inv_y1, inv_yhat1)
-print('Test MSE: %.3f' % mse)
+rmse = np.roots(mse)
+print('Test RMSE: %.3f' % rmse)
 plt.plot(inv_y1, label='Training')
 plt.plot(inv_yhat1, label='Test')
 plt.legend()
 plt.savefig('Relative Humidity.png', dpi=250)
 plt.show()
-f = open('MSE.txt','a')
+f = open('RMSE.txt','a')
 print("Relative Humidity",mse, file=f)
 f.close()
 
