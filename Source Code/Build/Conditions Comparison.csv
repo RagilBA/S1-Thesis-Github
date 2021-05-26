@@ -110,7 +110,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-07 23:00:00,Partially cloudy,Partially cloudy
 2015-12-08 00:00:00,Partially cloudy,Partially cloudy
 2015-12-08 01:00:00,Partially cloudy,Partially cloudy
-2015-12-08 07:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-08 07:00:00,Partially cloudy,Partially cloudy
 2015-12-08 08:00:00,Partially cloudy,Partially cloudy
 2015-12-08 09:00:00,Partially cloudy,Partially cloudy
 2015-12-08 10:00:00,Partially cloudy,Partially cloudy
@@ -142,11 +142,11 @@ Date,Actual Conditions,Predict Conditions
 2015-12-09 22:00:00,Partially cloudy,Partially cloudy
 2015-12-09 23:00:00,Partially cloudy,Partially cloudy
 2015-12-10 00:00:00,Clear,Partially cloudy
-2015-12-10 01:00:00,Partially cloudy,Clear
+2015-12-10 01:00:00,Partially cloudy,Partially cloudy
 2015-12-10 02:00:00,Clear,Partially cloudy
 2015-12-10 03:00:00,Partially cloudy,Partially cloudy
 2015-12-10 04:00:00,Overcast,Partially cloudy
-2015-12-10 05:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-10 05:00:00,Partially cloudy,Partially cloudy
 2015-12-10 06:00:00,Partially cloudy,Partially cloudy
 2015-12-10 07:00:00,Partially cloudy,Partially cloudy
 2015-12-10 08:00:00,Partially cloudy,Partially cloudy
@@ -194,7 +194,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-12 17:00:00,Partially cloudy,Partially cloudy
 2015-12-12 18:00:00,Partially cloudy,Partially cloudy
 2015-12-12 19:00:00,Overcast,Partially cloudy
-2015-12-12 20:00:00,Partially cloudy,Overcast
+2015-12-12 20:00:00,Partially cloudy,Partially cloudy
 2015-12-12 21:00:00,Partially cloudy,Partially cloudy
 2015-12-12 22:00:00,Overcast,Partially cloudy
 2015-12-12 23:00:00,Partially cloudy,Partially cloudy
@@ -223,7 +223,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-14 11:00:00,Partially cloudy,Partially cloudy
 2015-12-14 12:00:00,Partially cloudy,Partially cloudy
 2015-12-14 13:00:00,Overcast,Partially cloudy
-2015-12-15 08:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-15 08:00:00,Partially cloudy,Partially cloudy
 2015-12-15 09:00:00,Partially cloudy,Partially cloudy
 2015-12-15 10:00:00,Partially cloudy,Partially cloudy
 2015-12-15 11:00:00,Partially cloudy,Partially cloudy
@@ -253,7 +253,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-17 11:00:00,Partially cloudy,Partially cloudy
 2015-12-17 12:00:00,Partially cloudy,Partially cloudy
 2015-12-17 13:00:00,Overcast,Partially cloudy
-2015-12-17 14:00:00,Partially cloudy,Overcast
+2015-12-17 14:00:00,Partially cloudy,Partially cloudy
 2015-12-17 15:00:00,Partially cloudy,Partially cloudy
 2015-12-17 16:00:00,Partially cloudy,Partially cloudy
 2015-12-17 17:00:00,Partially cloudy,Partially cloudy
@@ -270,7 +270,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-18 14:00:00,Partially cloudy,Partially cloudy
 2015-12-18 15:00:00,Partially cloudy,Partially cloudy
 2015-12-18 16:00:00,"Rain, Overcast",Partially cloudy
-2015-12-18 17:00:00,Partially cloudy,Clear
+2015-12-18 17:00:00,Partially cloudy,Partially cloudy
 2015-12-19 08:00:00,Partially cloudy,Partially cloudy
 2015-12-19 09:00:00,Partially cloudy,Partially cloudy
 2015-12-19 10:00:00,Partially cloudy,Partially cloudy
@@ -280,9 +280,9 @@ Date,Actual Conditions,Predict Conditions
 2015-12-19 15:00:00,Partially cloudy,Partially cloudy
 2015-12-19 16:00:00,Partially cloudy,Partially cloudy
 2015-12-20 07:00:00,Partially cloudy,Partially cloudy
-2015-12-20 10:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-20 10:00:00,Partially cloudy,Partially cloudy
 2015-12-20 12:00:00,Overcast,Partially cloudy
-2015-12-20 13:00:00,Partially cloudy,Overcast
+2015-12-20 13:00:00,Partially cloudy,Partially cloudy
 2015-12-20 14:00:00,Partially cloudy,Partially cloudy
 2015-12-20 15:00:00,Partially cloudy,Partially cloudy
 2015-12-20 16:00:00,Partially cloudy,Partially cloudy
@@ -297,7 +297,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-21 12:00:00,Partially cloudy,Partially cloudy
 2015-12-21 13:00:00,Partially cloudy,Partially cloudy
 2015-12-21 14:00:00,Overcast,Partially cloudy
-2015-12-21 16:00:00,Partially cloudy,Overcast
+2015-12-21 16:00:00,Partially cloudy,Partially cloudy
 2015-12-21 17:00:00,Partially cloudy,Partially cloudy
 2015-12-21 18:00:00,Partially cloudy,Partially cloudy
 2015-12-22 07:00:00,Partially cloudy,Partially cloudy
@@ -336,7 +336,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-24 13:00:00,Partially cloudy,Partially cloudy
 2015-12-24 14:00:00,Partially cloudy,Partially cloudy
 2015-12-24 15:00:00,Overcast,Partially cloudy
-2015-12-24 16:00:00,"Rain, Overcast","Rain, Partially cloudy"
+2015-12-24 16:00:00,"Rain, Overcast",Partially cloudy
 2015-12-24 17:00:00,Partially cloudy,Partially cloudy
 2015-12-24 18:00:00,Partially cloudy,Partially cloudy
 2015-12-24 19:00:00,Partially cloudy,Partially cloudy
@@ -355,7 +355,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-25 19:00:00,Overcast,Partially cloudy
 2015-12-25 21:00:00,Partially cloudy,Partially cloudy
 2015-12-25 22:00:00,Overcast,Partially cloudy
-2015-12-25 23:00:00,Partially cloudy,Overcast
+2015-12-25 23:00:00,Partially cloudy,Partially cloudy
 2015-12-26 00:00:00,Partially cloudy,Partially cloudy
 2015-12-26 01:00:00,Partially cloudy,Partially cloudy
 2015-12-26 02:00:00,Partially cloudy,Partially cloudy
@@ -367,13 +367,13 @@ Date,Actual Conditions,Predict Conditions
 2015-12-26 12:00:00,Partially cloudy,Partially cloudy
 2015-12-26 13:00:00,Partially cloudy,Partially cloudy
 2015-12-26 14:00:00,Overcast,Partially cloudy
-2015-12-26 15:00:00,Partially cloudy,Overcast
+2015-12-26 15:00:00,Partially cloudy,Partially cloudy
 2015-12-26 16:00:00,Partially cloudy,Partially cloudy
 2015-12-26 17:00:00,Partially cloudy,Partially cloudy
 2015-12-26 23:00:00,Partially cloudy,Partially cloudy
 2015-12-27 00:00:00,Partially cloudy,Partially cloudy
 2015-12-27 09:00:00,Overcast,Partially cloudy
-2015-12-27 10:00:00,Partially cloudy,Overcast
+2015-12-27 10:00:00,Partially cloudy,Partially cloudy
 2015-12-27 11:00:00,Partially cloudy,Partially cloudy
 2015-12-27 12:00:00,Partially cloudy,Partially cloudy
 2015-12-27 13:00:00,Partially cloudy,Partially cloudy
@@ -391,10 +391,10 @@ Date,Actual Conditions,Predict Conditions
 2015-12-28 20:00:00,Partially cloudy,Partially cloudy
 2015-12-28 21:00:00,Partially cloudy,Partially cloudy
 2015-12-28 22:00:00,Partially cloudy,Partially cloudy
-2015-12-28 23:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-28 23:00:00,Partially cloudy,Partially cloudy
 2015-12-29 00:00:00,Partially cloudy,Partially cloudy
 2015-12-29 01:00:00,Partially cloudy,Partially cloudy
-2015-12-29 09:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-29 09:00:00,Partially cloudy,Partially cloudy
 2015-12-29 10:00:00,Overcast,Partially cloudy
 2015-12-29 11:00:00,Partially cloudy,Partially cloudy
 2015-12-29 12:00:00,Partially cloudy,Partially cloudy
@@ -416,7 +416,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-30 19:00:00,Partially cloudy,Partially cloudy
 2015-12-30 21:00:00,Overcast,Partially cloudy
 2015-12-30 22:00:00,Partially cloudy,Partially cloudy
-2015-12-30 23:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-30 23:00:00,Partially cloudy,Partially cloudy
 2015-12-31 00:00:00,Overcast,Partially cloudy
 2015-12-31 09:00:00,Partially cloudy,Partially cloudy
 2015-12-31 10:00:00,Partially cloudy,Partially cloudy
@@ -429,7 +429,7 @@ Date,Actual Conditions,Predict Conditions
 2015-12-31 17:00:00,Partially cloudy,Partially cloudy
 2015-12-31 18:00:00,Partially cloudy,Partially cloudy
 2015-12-31 19:00:00,Partially cloudy,Partially cloudy
-2015-12-31 20:00:00,Partially cloudy,"Rain, Partially cloudy"
+2015-12-31 20:00:00,Partially cloudy,Partially cloudy
 2015-12-31 21:00:00,Partially cloudy,Partially cloudy
 2015-12-31 22:00:00,Overcast,Partially cloudy
-2015-12-31 23:00:00,Partially cloudy,Overcast
+2015-12-31 23:00:00,Partially cloudy,Partially cloudy

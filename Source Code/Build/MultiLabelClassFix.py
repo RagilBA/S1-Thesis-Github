@@ -50,7 +50,7 @@ Y_train = trainY
 Y_test = testY
 
 ## Creating model ##
-knn_clf=KNeighborsClassifier()
+knn_clf=KNeighborsClassifier() #n_neighbors = 1000
 
 ## Fitting and training model ##
 knn_clf.fit(X_train,Y_train)

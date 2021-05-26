@@ -9,9 +9,9 @@ from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
 
 ##Inserting data as needed##
-nskip = 12305+4336+4842
-ndata = 4932
-ntrain = 4497
+nskip = 0
+ndata = 4122
+ntrain = 3846
 nbatch = 30
 df = pd.read_csv('dataMalang-Modified.csv', nrows = ndata, skiprows = nskip ) #, nrows=365*30, skiprow, skipfooter
 df = df.dropna()
